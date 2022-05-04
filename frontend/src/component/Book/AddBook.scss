@@ -1,0 +1,38 @@
+.addcar {
+  form {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 60px;
+    .text {
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      //   background-color: aqua;
+      color: black;
+      height: 30px;
+      width: 400px;
+      margin-bottom: 10px;
+      padding-left: 30px;
+      box-shadow: 2px 2px 6px #655f5f, -20px -20px 60px #b8a0a0;
+    }
+    #createProductFormImage {
+      img {
+        width: 200px;
+        height: 150px;
+      }
+    }
+    .submit {
+      margin-top: 30px;
+      background-color: black;
+      color: white;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      width: 250px;
+      padding: 10px;
+      box-shadow: 20px 20px 60px #d5d5d5, -20px -20px 60px #ffffff;
+    }
+  }
+}

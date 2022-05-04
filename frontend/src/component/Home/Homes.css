@@ -1,0 +1,71 @@
+.hello {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.hello .div {
+  margin: 20px;
+  width: 300px;
+  border-radius: 25px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  -webkit-box-shadow: 5px 5px 10px #666666, -5px -5px 10px #ffffff;
+          box-shadow: 5px 5px 10px #666666, -5px -5px 10px #ffffff;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.hello .div .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hello .div .flex h5 {
+  margin-top: 20px;
+  text-transform: capitalize;
+  position: relative;
+  left: 4rem;
+}
+
+.hello .div .flex p {
+  position: relative;
+  top: 20px;
+  right: 50px;
+}
+
+.hello .div .flex img {
+  margin-top: 50px;
+  height: 250px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.hello .div .flex .divflex2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.hello .div .flex .divflex2 p {
+  margin-top: 50px;
+  position: relative;
+  top: 200px;
+  padding: 20px;
+  right: 250px;
+}
+/*# sourceMappingURL=Homes.css.map */

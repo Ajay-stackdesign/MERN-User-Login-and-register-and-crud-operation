@@ -1,0 +1,37 @@
+.header {
+  background-color: antiquewhite;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .header__left {
+    margin-top: 5px;
+    .link {
+      text-decoration: none;
+      color: black;
+      img {
+        object-fit: contain;
+        height: 50px;
+      }
+    }
+  }
+  .header__middle {
+    .header__middleOne {
+      display: flex;
+      li {
+        list-style: none;
+        padding: 50px;
+        .link {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+  .header__right {
+    display: flex;
+    li {
+      list-style: none;
+    }
+  }
+}

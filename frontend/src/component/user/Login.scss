@@ -1,0 +1,40 @@
+.register {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  display: grid;
+  place-items: center;
+  width: 300px;
+  height: 30vh;
+  border-radius: 50px;
+  form {
+    // padding-top: 100px;
+    // padding-bottom: 60px;
+    // display: grid;
+    // place-items: center;
+    // width: 500px;
+    // height: 30vh;
+    .text {
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      background-color: aqua;
+      color: black;
+      height: 30px;
+      width: 400px;
+      margin-bottom: 10px;
+      padding-left: 30px;
+      box-shadow: 2px 2px 6px #d5d5d5, -20px -20px 60px #ffffff;
+    }
+    .submit {
+      margin-top: 15px;
+      background-color: black;
+      color: white;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      width: 250px;
+      padding: 10px;
+      box-shadow: 20px 20px 60px #d5d5d5, -20px -20px 60px #ffffff;
+    }
+  }
+}
